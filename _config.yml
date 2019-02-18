@@ -1,0 +1,22 @@
+title: Orbit
+author: Amy Parent
+email: amy@amyparent.com
+description: >
+  Orbit is a simple, fast and easy to embed programming language meant to be
+  easy to learn and use.
+baseurl: ""
+url: "orbit.amyparent.com"
+twitter_username: amyinorbit
+github_username:  amyinorbit
+
+# Build settings
+markdown: kramdown
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+kramdown:
+  auto_ids:       true
+  toc_levels:     2..6
+  input:          GFM
